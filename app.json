@@ -1,0 +1,30 @@
+{
+    "id": "dfc88193-d50a-449f-84ea-d0b0b3e724d4",
+    "name": "Airsealog-Customization-Uln-pe",
+    "publisher": "Union Label Net",
+    "version": "1.0.0.0",
+    "brief": "Powered for Union Label Net",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "./Images/LogoULN.png",
+    "dependencies": [{
+        "id": "c9d0daa8-6866-41ce-ba8e-c1ef86fa587f",
+        "publisher": "Union-Label-Net",
+        "name": "Peruvian-Localization-ULN",
+        "version": "1.0.0.0"
+    }],
+    "screenshots": [],
+    "platform": "17.0.0.0",
+    "application": "17.0.0.0",
+    "idRanges": [{
+        "from": 58000,
+        "to": 59999
+    }],
+    "contextSensitiveHelpUrl": "https://airsealog-customization_2.com/help/",
+    "showMyCode": false,
+    "features": ["TranslationFile"],
+    "runtime": "5.0"
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Airsealog-Customization-Uln-pe">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 1885442800 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3482122102">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airsealog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Stand. Sales Code Card - Control Airsealog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3850513716 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Standard Sales Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. venta estándar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Line - Field Standard Sales Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4019443376 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Standard Sales Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. venta estándar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Line - Field Standard Sales Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3003800900 - Field 903500139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 150633682">
+          <source>Detraction</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Detracción"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Stand. Sales Code - Field Sales Detraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3003800900 - Field 3796322276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 150633682">
+          <source>Operation Type Detraction</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Tipo de operación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Stand. Sales Code - Field Operation Type Detrac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3003800900 - Field 4145097476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 150633682">
+          <source>Service Type Detraction</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Tipo de servicio"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Stand. Sales Code - Field Service Type Detrac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3357041795 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Standard Sales Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. venta estándar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Line - Field Standard Sales Code - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
