@@ -3,15 +3,170 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Airsealog-Customization-Uln-pe">
     <body>
       <group id="body">
+        <trans-unit id="PageExtension 1816372113 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Posted Sales Invoice - Control Airsealog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2185585546 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Posted Sales Credit Mem - Control Airsealog - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1885442800 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3482122102">
           <source>Airsealog</source>
           <note from="Developer" annotates="general" priority="2">ESM="Airsealog"</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Stand. Sales Code Card - Control Airsealog - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3628421426 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Sales Invoice - Control Airsealog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 781257514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Shortcut Dimension 3 Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. dim. acceso dir. 3"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Shortcut Dimension 3 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 2476232906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Cargowise Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Factura Cargowise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Cargowise Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 735946019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>N° BL/Hawb</source>
+          <note from="Developer" annotates="general" priority="2">ESM="N° BL/Hawb"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field BL No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 3339913598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Shipper Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre remitente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Shipper Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 2967522210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Consignee Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre destinatario"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Consignee Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 3123169861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Routing No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Routing"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Routing No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 473215473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>No. Sales Shipment</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Guía Remisión"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field No. Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 1049538113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Ship/Flight Transport</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Barco/Vuelo de Transporte"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Placa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 3515977901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Carrier Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre Transportista"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Carrier Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 2588654952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Origin</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 3040929904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Destination</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Destination - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 1038333912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Get Out Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Salida"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Get Out Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 251860989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Arrived Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Llegada"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Arrived Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2272980795 - Field 800849638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Purchase order No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Orden Compra"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Header - Field Purchase order No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3850513716 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>Standard Sales Code</source>
           <note from="Developer" annotates="general" priority="2">ESM="Cód. venta estándar"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Invoice Line - Field Standard Sales Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 781257514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Shortcut Dimension 3 Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. dim. acceso dir. 3"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Shortcut Dimension 3 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 2476232906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Cargowise Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Factura Cargowise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Cargowise Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 735946019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>N° BL/Hawb</source>
+          <note from="Developer" annotates="general" priority="2">ESM="N° BL/Hawb"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field BL No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 3339913598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Shipper Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre remitente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Shipper Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 2967522210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Consignee Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre destinatario"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Consignee Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 3123169861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Routing No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Routing"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Routing No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 473215473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>No. Sales Shipment</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Guía Remisión"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field No. Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 1049538113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Ship/Flight Transport</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Barco/Vuelo de Transporte"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Placa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 3515977901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Carrier Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre Transportista"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Carrier Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 2588654952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Origin</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 3040929904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Destination</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Destination - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 1038333912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Get Out Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Salida"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Get Out Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 251860989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Arrived Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Llegada"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Arrived Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220879351 - Field 800849638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Purchase order No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Orden Compra"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Cr.Memo Header - Field Purchase order No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4019443376 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
           <source>Standard Sales Code</source>
@@ -32,6 +187,76 @@
           <source>Service Type Detraction</source>
           <note from="Developer" annotates="general" priority="2">ESM="Tipo de servicio"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Stand. Sales Code - Field Service Type Detrac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 781257514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Shortcut Dimension 3 Code</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Cód. dim. acceso dir. 3"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Shortcut Dimension 3 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 2476232906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Cargowise Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Factura Cargowise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Cargowise Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 735946019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>N° BL/Hawb</source>
+          <note from="Developer" annotates="general" priority="2">ESM="N° BL/Hawb"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field BL No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 3339913598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Shipper Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre remitente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Shipper Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 2967522210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Consignee Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre destinatario"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Consignee Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 3123169861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Routing No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Routing"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Routing No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 473215473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>No. Sales Shipment</source>
+          <note from="Developer" annotates="general" priority="2">ESM="No. Guía Remisión"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field No. Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 1049538113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Ship/Flight Transport</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Barco/Vuelo de Transporte"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Placa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 3515977901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Carrier Name</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Nombre Transportista"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Carrier Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 2588654952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Origin</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 3040929904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Destination</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Destination - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 1038333912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Get Out Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Salida"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Get Out Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 251860989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Arrived Date</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Fecha Llegada"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Arrived Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2466868732 - Field 800849638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Purchase order No.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Orden Compra"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Airlg. Sales Header - Field Purchase order No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3357041795 - Field 150633682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
           <source>Standard Sales Code</source>
