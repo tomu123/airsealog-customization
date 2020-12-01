@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Airsealog-Customization-Uln-pe">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 4288098051 - Method 2858228490 - NamedType 2415172920" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For a document, only Charge Code that have the same Detraction service code are allowed.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Para un documento sólo se permite Charge Code que tengan el mismo codigo de servicio de Detracción."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Airsealog Sales - Method CheckServiceTypeDetractionForSalesHeader - NamedType DifferentDetractionServiceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4288098051 - Method 425336540 - NamedType 2329838558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For a document, only Charge Code that have the same Type Operation Document code are allowed.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Para un documento sólo se permite Charge Code que tengan el mismo  Tipo de Operación."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Airsealog Sales - Method CheckTypeOperationDocumentForSalesHeader - NamedType DifferentTypeOperationDocumentErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1816372113 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Airsealog</source>
           <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
@@ -22,6 +32,11 @@
           <source>Airsealog</source>
           <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Sales Invoice - Control Airsealog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 418879332 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Sales Credit Memo - Control Airsealog - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2272980795 - Field 781257514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Shortcut Dimension 3 Code</source>

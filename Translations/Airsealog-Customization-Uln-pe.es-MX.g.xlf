@@ -3,6 +3,18 @@
   <file datatype="xml" source-language="en-US" target-language="es-MX" original="Airsealog-Customization-Uln-pe">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 4288098051 - Method 2858228490 - NamedType 2415172920" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For a document, only Charge Code that have the same Detraction service code are allowed.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Para un documento sólo se permite Charge Code que tengan el mismo codigo de servicio de Detracción."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Airsealog Sales - Method CheckServiceTypeDetractionForSalesHeader - NamedType DifferentDetractionServiceErr</note>
+          <target>Para un documento sólo se permite Charge Code que tengan el mismo codigo de servicio de Detracción.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4288098051 - Method 425336540 - NamedType 2329838558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For a document, only Charge Code that have the same Type Operation Document code are allowed.</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Para un documento sólo se permite Charge Code que tengan el mismo  Tipo de Operación."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Airsealog Sales - Method CheckTypeOperationDocumentForSalesHeader - NamedType DifferentTypeOperationDocumentErr</note>
+          <target>Para un documento sólo se permite Charge Code que tengan el mismo  Tipo de Operación.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1816372113 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Airsealog</source>
           <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>

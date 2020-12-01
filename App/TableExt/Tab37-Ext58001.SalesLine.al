@@ -19,20 +19,27 @@ tableextension 58001 "Airlg. Sales Line" extends "Sales Line"
                         Validate(Type, StandardSalesLine.Type);
                         Validate("No.", StandardSalesLine."No.");
                         Description := StandardSalesLine.Description;
-                        "Standard Sales Code" := StandardSalesLine."Standard Sales Code";
                         if StandardSalesLine."Shortcut Dimension 1 Code" <> '' then
                             Validate("Shortcut Dimension 1 Code", StandardSalesLine."Shortcut Dimension 1 Code");
                         if StandardSalesLine."Shortcut Dimension 2 Code" <> '' then
                             Validate("Shortcut Dimension 2 Code", StandardSalesLine."Shortcut Dimension 2 Code");
+                        "Standard Sales Code" := StandardSalesLine."Standard Sales Code";
+
                     end;
                 end else begin
                     Type := Type::" ";
                     "No." := '';
                     Description := '';
                 end;
+                OnValidateStandardSalesCode(xRec, Rec);
             end;
         }
     }
+
+    [IntegrationEvent(false, false)]
+    local procedure OnValidateStandardSalesCode(var xSalesLine: Record "Sales Line"; var SalesLine: Record "Sales Line");
+    begin
+    end;
 
     var
         myInt: Integer;
