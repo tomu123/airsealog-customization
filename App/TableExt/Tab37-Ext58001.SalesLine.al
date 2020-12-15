@@ -19,12 +19,13 @@ tableextension 58001 "Airlg. Sales Line" extends "Sales Line"
                         Validate(Type, StandardSalesLine.Type);
                         Validate("No.", StandardSalesLine."No.");
                         Description := StandardSalesLine.Description;
+                        Validate(Quantity, 1);
+                        Validate("Unit of Measure Code", 'UND');
                         if StandardSalesLine."Shortcut Dimension 1 Code" <> '' then
                             Validate("Shortcut Dimension 1 Code", StandardSalesLine."Shortcut Dimension 1 Code");
                         if StandardSalesLine."Shortcut Dimension 2 Code" <> '' then
                             Validate("Shortcut Dimension 2 Code", StandardSalesLine."Shortcut Dimension 2 Code");
                         "Standard Sales Code" := StandardSalesLine."Standard Sales Code";
-
                     end;
                 end else begin
                     Type := Type::" ";
