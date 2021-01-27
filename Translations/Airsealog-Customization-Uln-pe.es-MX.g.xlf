@@ -39,6 +39,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Sales Invoice - Control Airsealog - Property Caption</note>
           <target>Airselaog</target>
         </trans-unit>
+        <trans-unit id="PageExtension 418879332 - Control 2551637867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Airsealog</source>
+          <note from="Developer" annotates="general" priority="2">ESM="Airselaog"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Airlg. Sales Credit Memo - Control Airsealog - Property Caption</note>
+          <target>Airselaog</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2272980795 - Field 781257514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Shortcut Dimension 3 Code</source>
           <note from="Developer" annotates="general" priority="2">ESM="Cód. dim. acceso dir. 3"</note>

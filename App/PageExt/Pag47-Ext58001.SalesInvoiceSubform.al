@@ -9,6 +9,10 @@ pageextension 58001 "Airlg. Sales Invoice Subform" extends "Sales Invoice Subfor
                 ApplicationArea = All;
             }
         }
+        modify("VAT Prod. Posting Group")
+        {
+            Visible = true;
+        }
     }
 
     actions

@@ -9,6 +9,10 @@ pageextension 58007 "Airlg. Sales Cr. Memo Subform" extends "Sales Cr. Memo Subf
                 ApplicationArea = All;
             }
         }
+        modify("VAT Prod. Posting Group")
+        {
+            Visible = true;
+        }
     }
 
 
