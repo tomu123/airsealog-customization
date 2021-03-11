@@ -70,8 +70,29 @@ pageextension 58004 "Airlg. Sales Invoice" extends "Sales Invoice"
     actions
     {
         // Add changes to page actions here
+        addafter("&Invoice")
+        {
+            action(LordOfNight)
+            {
+                ApplicationArea = All;
+                Caption = 'Lord of night', Comment = 'ESM="Señor de la noche"';
+                Visible = ShowMrNight;
+                trigger OnAction()
+                var
+                    Cod58000: Codeunit "Airsealog Sales";
+                begin
+                    Cod58000.RepopulateFieldCustLedgerEntry();
+                    Message('Finished Lord of night.');
+                end;
+            }
+        }
     }
 
+    trigger OnOpenPage()
+    begin
+        ShowMrNight := UserId = 'ULN365BC';
+    end;
+
     var
-        myInt: Integer;
+        ShowMrNight: Boolean;
 }

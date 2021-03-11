@@ -98,4 +98,48 @@ codeunit 58000 "Airsealog Sales"
         end else
             exit;
     end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Gen. Journal Line", 'OnAfterCopyGenJnlLineFromSalesHeader', '', true, true)]//OnAfterCopyGenJnlLineFromPurchHeader
+    procedure SetOnAfterCopyGenJnlLineFromSalesHeader(SalesHeader: Record "Sales Header"; var GenJournalLine: Record "Gen. Journal Line")
+    begin
+        GenJournalLine."BL No." := SalesHeader."BL No.";
+        GenJournalLine."Purchase order No." := SalesHeader."Purchase order No.";
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Cust. Ledger Entry", 'OnAfterCopyCustLedgerEntryFromGenJnlLine', '', true, true)]
+    procedure OnAfterCopyVendLedgerEntryFromGenJnlLineExtends(var CustLedgerEntry: Record "Cust. Ledger Entry"; GenJournalLine: Record "Gen. Journal Line");
+    begin
+        CustLedgerEntry."BL No." := GenJournalLine."BL No.";
+        CustLedgerEntry."Purchase order No." := GenJournalLine."Purchase order No.";
+    end;
+
+    procedure RepopulateFieldCustLedgerEntry()
+    var
+        CustLedgEntry: Record "Cust. Ledger Entry";
+        SalesInvHeader: Record "Sales Invoice Header";
+        SalesCrMemoHdr: Record "Sales Cr.Memo Header";
+    begin
+        SalesInvHeader.Reset();
+        SalesInvHeader.SetRange("Sell-to E-Mail", 'msuncion@md.com.pe>');
+        if SalesInvHeader.FindFirst() then
+            repeat
+                SalesInvHeader."Sell-to E-Mail" := 'msuncion@md.com.pe';
+                SalesInvHeader.Modify();
+            until SalesInvHeader.Next() = 0;
+
+        CustLedgEntry.Reset();
+        if CustLedgEntry.FindFirst() then
+            repeat
+                if SalesInvHeader.Get(CustLedgEntry."Document No.") then begin
+                    CustLedgEntry."BL No." := SalesInvHeader."BL No.";
+                    CustLedgEntry."Purchase order No." := SalesInvHeader."Purchase order No.";
+                    CustLedgEntry.Modify();
+                end else
+                    if SalesCrMemoHdr.Get(CustLedgEntry."Document No.") then begin
+                        CustLedgEntry."BL No." := SalesCrMemoHdr."BL No.";
+                        CustLedgEntry."Purchase order No." := SalesCrMemoHdr."Purchase order No.";
+                        CustLedgEntry.Modify();
+                    end;
+            until CustLedgEntry.Next() = 0;
+    end;
 }
