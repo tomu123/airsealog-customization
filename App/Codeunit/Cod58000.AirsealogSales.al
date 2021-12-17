@@ -19,6 +19,23 @@ codeunit 58000 "Airsealog Sales"
         //AssignSalesDetraction(Rec);
     end;
 
+    [EventSubscriber(ObjectType::Table, Database::"Gen. Journal Line", 'OnAfterLookUpAppliesToDocVend', '', true, true)]
+    local procedure OnAfterLookUpAppliesToDocVend(var GenJournalLine: Record "Gen. Journal Line"; VendLedgEntry: Record "Vendor Ledger Entry")
+    var
+        PurchInvLine: Record "Purch. Inv. Line";
+    begin
+        PurchInvLine.Reset();
+        PurchInvLine.SetRange("Document No.", VendLedgEntry."Document No.");
+        if PurchInvLine.FindFirst() then begin
+            GenJournalLine.Validate("Shortcut Dimension 1 Code", PurchInvLine."Shortcut Dimension 1 Code");
+            GenJournalLine.Validate("Shortcut Dimension 2 Code", PurchInvLine."Shortcut Dimension 2 Code");
+            GenJournalLine."Dimension Set ID" := PurchInvLine."Dimension Set ID";
+            //GenJournalLine.Validate("Job No.", PurchInvLine."Job No.");
+            //GenJournalLine.Validate("Job Task No.", PurchInvLine."Job Task No.");
+            GenJournalLine.Modify();
+        end;
+    end;
+
     local procedure CheckServiceTypeDetractionForSalesHeader(SalesLine: Record "Sales Line")
     var
         SalesLine2: Record "Sales Line";
