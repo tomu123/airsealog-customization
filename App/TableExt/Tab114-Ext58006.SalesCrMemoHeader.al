@@ -51,7 +51,7 @@ tableextension 58006 "Airlg. Sales Cr.Memo Header" extends "Sales Cr.Memo Header
             DataClassification = ToBeClassified;
             Caption = 'Carrier Name', comment = 'ESM="Nombre Transportista"';
         }
-        field(58009; Origin; Code[30])
+        field(58009; Origin; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Origin', comment = 'ESM="Origen"';

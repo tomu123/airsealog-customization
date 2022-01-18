@@ -18,6 +18,10 @@ tableextension 58004 "Airlg. Sales Header" extends "Sales Header"
         {
             DataClassification = ToBeClassified;
             Caption = 'Cargowise Invoice No.', comment = 'ESM="No. Factura Cargowise"';
+            trigger OnValidate()
+            begin
+                Rec."Airsealog-Cargowise Inv No." := Rec."Cargowise Invoice No.";
+            end;
         }
 
         field(58002; "BL No."; Text[50])
@@ -56,7 +60,7 @@ tableextension 58004 "Airlg. Sales Header" extends "Sales Header"
             DataClassification = ToBeClassified;
             Caption = 'Carrier Name', comment = 'ESM="Nombre Transportista"';
         }
-        field(58009; Origin; Code[30])
+        field(58009; Origin; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Origin', comment = 'ESM="Origen"';

@@ -52,7 +52,7 @@ tableextension 58005 "Airlg. Sales Invoice Header" extends "Sales Invoice Header
             DataClassification = ToBeClassified;
             Caption = 'Carrier Name', comment = 'ESM="Nombre Transportista"';
         }
-        field(58009; Origin; Code[30])
+        field(58009; Origin; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Origin', comment = 'ESM="Origen"';
