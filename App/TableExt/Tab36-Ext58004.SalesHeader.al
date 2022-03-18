@@ -29,12 +29,12 @@ tableextension 58004 "Airlg. Sales Header" extends "Sales Header"
             DataClassification = ToBeClassified;
             Caption = 'N° BL/Hawb', comment = 'ESM="N° BL/Hawb"';
         }
-        field(58003; "Shipper Name"; Text[50])
+        field(58003; "Shipper Name"; Text[250])
         {
             DataClassification = ToBeClassified;
             Caption = 'Shipper Name', comment = 'ESM="Nombre remitente"';
         }
-        field(58004; "Consignee Name"; Text[40])
+        field(58004; "Consignee Name"; Text[250])
         {
             DataClassification = ToBeClassified;
             Caption = 'Consignee Name', comment = 'ESM="Nombre destinatario"';
@@ -50,7 +50,7 @@ tableextension 58004 "Airlg. Sales Header" extends "Sales Header"
             DataClassification = ToBeClassified;
             Caption = 'No. Sales Shipment', comment = 'ESM="No. Guía Remisión"';
         }
-        field(58007; Placa; Code[30])
+        field(58007; Placa; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Ship/Flight Transport', comment = 'ESM="Barco/Vuelo de Transporte"';
@@ -81,7 +81,7 @@ tableextension 58004 "Airlg. Sales Header" extends "Sales Header"
             Caption = 'Arrived Date', comment = 'ESM="Fecha Llegada"';
         }
 
-        field(58013; "Purchase order No."; Code[20])
+        field(58013; "Purchase order No."; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Purchase order No.', comment = 'ESM="Orden Compra"';
